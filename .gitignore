@@ -12,3 +12,4 @@ terraform.tfstate.d/
 
 # Jenkins / tools temp
 tmp/
+.terraform/
