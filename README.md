@@ -200,6 +200,8 @@ kubectl get svc argocd-server -n argocd -o json
 kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
 ```
 
+![architecture](atchitecture.png)
+
 
 
 
